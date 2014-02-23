@@ -100,7 +100,7 @@ func main() {
   ws_host := "localhost:1235"
 
   go H.Run()
-  http.HandleFunc("/", WsHandler)
+  http.HandleFunc("/ws", WsHandler)
   http.HandleFunc("/push", PushHandler)
   http.HandleFunc("/gh", GithubHandler)
   log.Println("Starting websocket server on: ", ws_host)
