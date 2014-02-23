@@ -1,0 +1,4 @@
+	gom 'code.google.com/p/go.net/websocket'
+	gom 'github.com/garyburd/redigo/redis'
+	gom 'github.com/gorilla/websocket'
+	gom 'github.com/wsxiaoys/terminal'
