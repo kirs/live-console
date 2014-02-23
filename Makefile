@@ -14,7 +14,7 @@ bin/client: client.go
 	gom build -o $@ client.go
 
 install-dependencies:
-  gom install
+	gom install
 
 release:
 	git pull
